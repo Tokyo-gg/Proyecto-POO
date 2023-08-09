@@ -12,6 +12,7 @@ namespace Proyecto_POO
 { //comentario
     public partial class Form1 : Form
     {
+        //no c
         public Form1()
         {
             InitializeComponent();
