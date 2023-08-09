@@ -1,7 +1,7 @@
 # Proyecto-POO
 ## Proyecto Final POO Sección 0900
 
-Docente:JULIO CESAR SANDOVAL AGUILAR
+Docente: Julio Cesar Sandoval Aguilar
 
 Integrantes: <br>
 Gerardo Antonio González Vargas - 20171031364 <br>
