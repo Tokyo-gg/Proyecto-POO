@@ -3,7 +3,7 @@
 
 Docente:JULIO CESAR SANDOVAL AGUILAR
 
-Integrantes: 
+Integrantes: <br>
 Gerardo Antonio González Vargas - 20171031364 <br>
 Axell David Flores Hernández - 20181001075 <br>
 Sofia Nathaly Rivera Lobo - 20172300187 <br>
