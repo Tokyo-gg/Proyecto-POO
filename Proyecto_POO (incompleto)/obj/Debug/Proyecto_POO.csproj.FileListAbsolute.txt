@@ -1,0 +1,21 @@
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\bin\Debug\Proyecto_POO.exe.config
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\bin\Debug\Proyecto_POO.exe
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\bin\Debug\Proyecto_POO.pdb
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.Form1.resources
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.Properties.Resources.resources
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.exe
+C:\Users\usuario\Documents\UNAH\POO\Proyecto_POO\obj\Debug\Proyecto_POO.pdb
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.exe
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.pdb
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.Form1.resources
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.Properties.Resources.resources
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\obj\Debug\Proyecto_POO.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\bin\Debug\Proyecto_POO.exe.config
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\bin\Debug\Proyecto_POO.exe
+C:\Users\PC\Desktop\II PAC 2023\POO\PROYECTO\Proyecto_POO\bin\Debug\Proyecto_POO.pdb
