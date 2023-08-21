@@ -59,6 +59,10 @@ namespace Proyecto_POO
 
             // Despliega los detalles del contacto actual en los TextBoxes
             NavigateRecords(currentIndex);
+
+            UpdateNavigationText(); // Actualizar el texto de navegación
+
+
         }
 
         private void NavigateRecords(int index)
@@ -86,7 +90,7 @@ namespace Proyecto_POO
             }
         }
 
-        private DataRow[] matchingRows; // Variable para almacenar las filas coincidentes
+        private List<DataRow> matchingRows = new List<DataRow>();// Lista para almacenar las filas coincidentes
 
         private void btnFind_Click(object sender, EventArgs e)
         {
@@ -116,7 +120,7 @@ namespace Proyecto_POO
             }
 
             // Sincronizar el BindingNavigator con la lista de resultados coincidentes
-            bindingNavigator.BindingSource = new BindingSource(new DataView(dataSet.Tables["Contactos"]), "");
+            UpdateNavigationText();
         }
 
 
@@ -151,6 +155,8 @@ namespace Proyecto_POO
                 // Llama a la función NavigateRecords con el nuevo índice para mostrar los detalles del registro anterior
                 NavigateRecords(currentIndex);
 
+                UpdateNavigationText(); // Actualizar el texto de navegación
+
             }
         }
 
@@ -165,6 +171,7 @@ namespace Proyecto_POO
                 // Llama a la función NavigateRecords con el nuevo índice para mostrar los detalles del siguiente registro
                 NavigateRecords(currentIndex);
 
+                UpdateNavigationText(); // Actualizar el texto de navegación
 
             }
         }
@@ -189,6 +196,8 @@ namespace Proyecto_POO
             currentIndex = 0;
             NavigateRecords(currentIndex);
             }
+
+            UpdateNavigationText();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -254,6 +263,8 @@ namespace Proyecto_POO
             {
                 MessageBox.Show("No se puede editar el registro en la posición actual.", "Error de edición", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            UpdateNavigationText();
         }
 
 
@@ -267,14 +278,10 @@ namespace Proyecto_POO
                 dataAdapter.Update(dataSet, "Contactos");
                 dataSet.AcceptChanges();
 
-                //// Actualizar la posición de la fila si se eliminó el último contacto
-                //if (currentIndex >= dataSet.Tables["Contactos"].Rows.Count)
-                //{
-                //    currentIndex = dataSet.Tables["Contactos"].Rows.Count - 1;
-               // }
-
                 // Refresh the form and show the next record
                 RefreshAllRecords();
+
+                UpdateNavigationText();
             }
         }
 
@@ -288,6 +295,8 @@ namespace Proyecto_POO
 
                 // Actualiza los detalles del formulario con el primer registro
                 NavigateRecords(currentIndex);
+
+                UpdateNavigationText();
             }
         }
 
@@ -301,8 +310,22 @@ namespace Proyecto_POO
 
                 // Actualiza los detalles del formulario con el último registro
                 NavigateRecords(currentIndex);
+
+                UpdateNavigationText();
             }
         }
+
+        private void UpdateNavigationText()
+        {
+            int totalContacts = dataSet.Tables["Contactos"].Rows.Count; // Total de registros
+            int currentPosition = currentIndex + 1; // Incrementar el índice actual
+        
+         // Actualizar el texto de navegación con el número actual de registro y el total de registros
+            bindingNavigator.CountItem.Text = $"de {totalContacts}";
+            bindingNavigator.PositionItem.Text = currentPosition.ToString();
+        }
+
+
 
     }
 
